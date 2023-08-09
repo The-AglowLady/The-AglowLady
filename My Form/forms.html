@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        text-transform: uppercase;
+        font-size: 12px;
+
+    }
+    body{
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: wheat;
+    }
+    input[type="button"]{
+        border: 1px solid black;
+        border-radius: 2px;
+        padding: 1px 2px;
+        background-color: blue;
+    }
+    form{
+        padding: 0;
+    }
+</style>
+<body>
+    <form>
+   <div style="display: flex;">
+<div>
+<label>First Name:</label><br>
+<input type="text" style="width: 200px;">
+</div>
+<div style="margin-left: 5px;">
+    <label>Middle Initial:</label><br>
+    <input type="text" style="width: 90px;">
+</div>
+</div>
+<div>
+    <label for="">Last Name:</label><br>
+    <input type="text" style="width: 295px;">
+</div>
+<div>
+    <label for="">Address:</label><br>
+    <input type="text" style="width: 295px; height: 2rem;">
+</div>
+<div>
+    <label for="">City:</label><br>
+    <input type="text" style="width: 295px;">
+</div>
+<div style="display: flex;">
+    <div>
+    <label>State:</label><br>
+    <input type="text" style="width: 200px;">
+    </div>
+    <div style="margin-left: 5px;">
+        <label>Zip:</label>:</label><br>
+        <input type="text" style="width: 90px;">
+    </div>
+    </div>
+    <div>
+        <label for="">Phone Number:</label><br>
+        <input type="number" style="width: 295px;">
+    </div>
+    <div>
+        <label for="">Comments:</label><br>
+        <input type="text" style="width: 295px; height: 3rem;">
+    </div>
+    <div style="display: flex;
+    justify-content:space-between;
+    padding: 0 1rem;
+    margin-top: 1rem;
+    ">
+        <input type="button" value="Clear">
+        <input type="button" value="Submit">
+    </div>
+</form>
+
+   
+</body>
+</html>
